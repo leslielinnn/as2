@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Web Page</title>
+    <link rel="stylesheet" href="as2.css" href="as2.js"> <!-- 匯入CSS樣式 -->
+</head>
+<body>
+    <header>
+        <h1>您的標題橫幅</h1>
+    </header>
+
+    <nav>
+        <a href="#section1" onclick="smoothScroll('#section1')">區塊 1</a>
+        <a href="#section2" onclick="smoothScroll('#section2')">區塊 2</a>
+        <a href="#section3" onclick="smoothScroll('#section3')">區塊 3</a>
+    </nav>
+
+    <section id="section1">
+        <div class="banner full-banner-section1">
+            <h2>區塊 1 標題</h2>
+        </div>
+        <div class="content">
+            <p>這是區塊 1 的內容。Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Sed condimentum vestibulum lorem, id dapibus ante cursus sit amet.</p>
+        </div>
+    </section>
+
+    <section id="section2">
+        <div class="banner full-banner-section2">
+            <h2>區塊 2 標題</h2>
+        </div>
+        <div class="content">
+            <p>這是區塊 2 的內容。Suspendisse potenti. Vestibulum a turpis ut massa consectetur vulputate. Donec non quam et justo lacinia feugiat.</p>
+        </div>
+    </section>
+
+    <section id="section3">
+        <div class="banner full-banner-section3">
+            <h2>區塊 3 標題</h2>
+        </div>
+        <div class="content">
+            <p>這是區塊 3 的內容。Fusce suscipit, elit at bibendum fermentum, augue libero varius nisi, ac vehicula odio odio eu urna.</p>
+        </div>
+    </section>
+
+    <script src="script.js"></script> <!-- 匯入JavaScript檔案 -->
+</body>
+</html>

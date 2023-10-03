@@ -1,0 +1,71 @@
+/* CSS樣式可以在這裡添加 */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0073e6;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #ff6600;
+}
+
+section {
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin: 20px;
+    text-align: center; /* 將內容置中 */
+}
+
+.banner {
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    background-size: cover;
+}
+
+/* 不同區塊的不同背景顏色 */
+.full-banner-section1 {
+    height: 100vh;
+    background-color: #ff6600; /* 區塊1的背景顏色 */
+}
+
+.full-banner-section2 {
+    height: 100vh;
+    background-color: #ffcc00; /* 區塊2的背景顏色 */
+}
+
+.full-banner-section3 {
+    height: 100vh;
+    background-color: #009900; /* 區塊3的背景顏色 */
+}
